@@ -1,0 +1,7 @@
+{
+    "url": "www.goldapi.io",
+    "token": "YOUR_API_KEY",
+    "type": "application/json",
+    "base": "XAU",
+    "symbol": "USD"
+}

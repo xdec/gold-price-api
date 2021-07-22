@@ -1,0 +1,7 @@
+{
+    "url": "https://metals-api.com/api/latest",
+    "token": "YOUR_API_KEY",
+    "type": "application/json",
+    "base": "XAU",
+    "symbols": ["USD"]
+}
