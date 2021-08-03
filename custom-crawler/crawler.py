@@ -61,9 +61,7 @@ class Crawler:
 
         print("File Success!")
 
-        data = {
-            'currency': self.currency,
-            'price': xau.text.replace(",",""),
-        }
-
-        return data
+        return {
+                'currency': self.currency,
+                'price': xau.text.replace(",",""),
+            }
