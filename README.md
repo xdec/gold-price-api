@@ -37,6 +37,20 @@ Available API's :electric_plug:
 
 # https://metalpriceapi.com/dashboard
 
+        function callNumbers() {
+
+          // Call the Numbers API for random math fact
+          var response = UrlFetchApp.fetch("https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ");
+          Logger.log(response.getContentText());
+
+          var fact = response.getContentText();
+          var sheet = SpreadsheetApp.getActiveSheet();
+          sheet.getRange(sheet.getLastRow() + 1,1).setValue([fact]);
+
+        }
+
+--------------------------------
+
         https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ
         
         https://www.benlcollins.com/apps-script/api-tutorial-for-beginners/
