@@ -51,6 +51,8 @@ Available API's :electric_plug:
 
 --------------------------------
 
+![image](https://user-images.githubusercontent.com/50515418/184533608-d2fc81b3-dfbe-41d3-8581-3728d7757200.png)
+
         - API : https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ
         
         - Article : https://www.benlcollins.com/apps-script/api-tutorial-for-beginners/
