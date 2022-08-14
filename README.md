@@ -30,3 +30,10 @@ Available API's :electric_plug:
 --------------------------
 
         curl -X GET 'https://www.goldapi.io/api/XAU/USD' -H 'x-access-token: xxxxxxxxxxxx'
+
+-------------------
+
+
+        https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ
+        
+        
