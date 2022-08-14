@@ -62,3 +62,5 @@ Available API's :electric_plug:
         - GCP : https://console.cloud.google.com/home/dashboard?project=ideationology-lab
         
         - Run : https://script.googleapis.com/v1/scripts/AKfycbxMBc17JzNiRP7RGSnZXVroeEVyrI9oEFbbkyAvwfYmTH4RqKJzdx5sjeBP048peELauQ:run
+        
+        - Library : https://script.google.com/macros/library/d/18aYVuDMURltcEGcgES_MY2JpLVcMsPcPSmRFxPPZ_Xz9Aug5EcD1MOze/1
