@@ -51,12 +51,14 @@ Available API's :electric_plug:
 
 --------------------------------
 
-        https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ
+        - API : https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ
         
-        https://www.benlcollins.com/apps-script/api-tutorial-for-beginners/
+        - Article : https://www.benlcollins.com/apps-script/api-tutorial-for-beginners/
 
-        https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit#gid=0
+        - Sheet : https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit#gid=0
         
-        https://script.google.com/u/0/home/projects/1Hyj91AmRxCetEfTx3_Z0L_OdYjHDqPoZH_qlpkjgbZ9nWZ1Mk2epLBXy/edit
+        - Script : https://script.google.com/u/0/home/projects/1Hyj91AmRxCetEfTx3_Z0L_OdYjHDqPoZH_qlpkjgbZ9nWZ1Mk2epLBXy/edit
         
+        - GCP : https://console.cloud.google.com/home/dashboard?project=ideationology-lab
         
+        - Run : https://script.googleapis.com/v1/scripts/AKfycbxMBc17JzNiRP7RGSnZXVroeEVyrI9oEFbbkyAvwfYmTH4RqKJzdx5sjeBP048peELauQ:run
