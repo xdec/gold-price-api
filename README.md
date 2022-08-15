@@ -38,21 +38,25 @@ Available API's :electric_plug:
 # https://metalpriceapi.com/dashboard
 
         function callNumbers() {
-
-          // Call the Numbers API for random math fact
           let url = "https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ";
           let fact = UrlFetchApp.fetch(url);
 
           let apiResponse = JSON.parse(fact.getContentText());
-          Logger.log(apiResponse.timestamp, apiResponse.rates.XAU);
+          Logger.log(apiResponse);
+
+          const date = new Date(apiResponse.timestamp*1000);
+          let unixdate = date.toLocaleDateString("en-IN");
+          let unixtime = date.toLocaleTimeString("en-IN");
+
+          let price = apiResponse.rates.XAU*1000000000;
+          console.log(unixdate, unixtime, price);
 
           let sheet = SpreadsheetApp.getActiveSheet();
-        //   sheet.getRange(1,1).setValue("timestamp");
-        //   sheet.getRange(1,2).setValue("rates");
+          sheet.getRange(1,1).setValue("Unix Timestamp");
+          sheet.getRange(1,2).setValue("Rate of Gold");
 
-          sheet.getRange(sheet.getLastRow() + 1,1).setValue(apiResponse.timestamp);
-          sheet.getRange(sheet.getLastRow() + 0,2).setValue(apiResponse.rates.XAU);
-
+          sheet.getRange(sheet.getLastRow() + 1,1).setValue(unixdate + ' ' + unixtime);
+          sheet.getRange(sheet.getLastRow() + 0,2).setValue(price);
         }
 
 --------------------------------
