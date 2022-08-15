@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Javascript for 
+            <a target='_blank'
+                href="https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ">
+                <span>
+                    API
+                </span>
+            </a>
+        </h2>
+            
+        <p id="demo">Data</p>
+
+        <script>
+            let obj, url = 'https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ';
+            
+            async function foo() {
+                const res = await fetch(url)
+                obj = await res.json();
+                console.log(obj)
+                document.getElementById("demo").innerHTML = 'Unix Timestamp : ' + obj["timestamp"] + '<br> Rate of Gold/mg : ' + obj["rates"]["XAU"];
+                }
+
+            foo();
+        </script>
+    </body>
+</html>
+
