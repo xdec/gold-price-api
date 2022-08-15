@@ -65,7 +65,7 @@ Available API's :electric_plug:
 
         - Sheet : https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit#gid=0
         
-        - Script : https://script.google.com/u/0/home/projects/1Hyj91AmRxCetEfTx3_Z0L_OdYjHDqPoZH_qlpkjgbZ9nWZ1Mk2epLBXy/edit
+        - Script : https://script.google.com/home/projects/18aYVuDMURltcEGcgES_MY2JpLVcMsPcPSmRFxPPZ_Xz9Aug5EcD1MOze/edit
         
         - GCP : https://console.cloud.google.com/home/dashboard?project=ideationology-lab
         
