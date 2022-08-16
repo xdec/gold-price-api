@@ -37,7 +37,7 @@ Available API's :electric_plug:
 
 # https://metalpriceapi.com/dashboard
 
-[![image](https://user-images.githubusercontent.com/50515418/184821142-b3663cd5-b32a-4370-94a6-64d4b9b22ce0.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
+[![image](https://user-images.githubusercontent.com/50515418/184925533-40431a34-89ab-47dc-acb8-ec1a29af85cc.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
 
         function callNumbers() {
           let url = "https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ";
