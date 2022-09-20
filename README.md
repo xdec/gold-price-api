@@ -1,6 +1,8 @@
 # Get The Latest Gold Price :chart_with_upwards_trend:
 
----
+![ss](https://github.com/imvickykumar999/gold-price-api/blob/main/Gold%20Price%20v_s%20Timeline.png?raw=true)
+
+----------------------------
 
 Scrape live gold prices via an API and store it in a CSV with a timestamp.
 
