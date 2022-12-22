@@ -1,6 +1,6 @@
 # Get The Latest Gold Price :chart_with_upwards_trend:
 
-![ss](https://github.com/imvickykumar999/gold-price-api/blob/main/Gold%20Price%20v_s%20Timeline.png?raw=true)
+> [![Gold Price v_s Timeline (1)](https://user-images.githubusercontent.com/50515418/209144461-89643912-3dee-410a-9d52-4a7b17dcd3ef.png)](https://docs.google.com/spreadsheets/d/e/2PACX-1vTBXHupCi3x-nYBxY3MdFA4oLkZiZjY34o_qoWfjVke85775s3bzI6wsnJFkJ-sWbVq69jFfPVVTQ7U/pubchart?oid=478367470&format=interactive)
 
 ----------------------------
 
@@ -39,7 +39,7 @@ Available API's :electric_plug:
 
 # https://metalpriceapi.com/dashboard
 
-[![image](https://user-images.githubusercontent.com/50515418/184925533-40431a34-89ab-47dc-acb8-ec1a29af85cc.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
+[![image](https://user-images.githubusercontent.com/50515418/209143842-6a806a82-2386-4751-8b21-db119e5b1926.png)](https://docs.google.com/spreadsheets/d/1SYWpE0tS5F_g5dnhNRqqY0I20KsK8o3HA5EnV2VDEis/edit?usp=sharing)
 
         function callNumbers() {
           let url = "https://api.metalpriceapi.com/v1/latest?base=USD&currencies=XAU,XAG&api_key=Dxt3fx5NcET88EGsAtvrdJ";
